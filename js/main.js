@@ -2,7 +2,7 @@ var cuadros = document.querySelectorAll(".square");
 var pickedColor = document.querySelector("#colorDisplay");
 var btn = document.querySelector("#btnf");
 
-// cuadradosColor(colores) Añade colores a los cuadrados, luego correctoIncorrecto(colorClick) analiza si es o no correcto.
+// cuadradosColor(colores)-> Añade colores a los cuadrados, luego correctoIncorrecto(colorClick)-> analiza si es o no correcto.
 function cuadradosColor(colores){
     for (i=0; i < cuadros.length; i++){
         cuadros[i].style.background=colores[i];
@@ -46,7 +46,7 @@ function randomColor(){
     return rgb;
 };
 
-// rdm() añade colores al array, luego generateRandomColors() escoge facil o dificil, finalmente reset(num) son eventos de nuevos colores y playgain?.
+// rdm()-> añade colores al array, luego generateRandomColors()-> escoge facil o dificil, finalmente reset(num)-> son eventos de nuevos colores y playgain?.
 function rdm(){
     colors = [];
     colors.push(randomColor());
