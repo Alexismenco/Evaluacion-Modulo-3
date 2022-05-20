@@ -35,7 +35,7 @@ function correctoIncorrecto(colorClick){
     };
 };
 
-// changeColors(numero) Cambia el color en el tag en span, luego rdm() Genera RGB.
+// changeColors(numero)-> Cambia el color en el tag en span, randomColor()-> genera los colores rgb random.
 function changeColors(numero){
     let color = Math.floor(Math.random()*numero);
     pickedColor.innerText=colors[color];
